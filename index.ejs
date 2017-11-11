@@ -4,11 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 </head>
 <body>
-    <div class="content">
-        <h1>Webpack Boilerplate</h1>
-        <h3>Replace this page with your own code</h3>
+    <div id="calculator">
+        <div class="calc-screen">
+          <span id="screen"></span>
+        </div>
+
+        <div class="calc-buttons">
+          <div id="7" class="calc-button"><span>7</span></div>
+          <div id="8" class="calc-button"><span>8</span></div>
+          <div id="9" class="calc-button"><span>9</span></div>
+          <div id="divide" class="calc-button"><span>/</span></div>
+          <div id="4" class="calc-button"><span>4</span></div>
+          <div id="5" class="calc-button"><span>5</span></div>
+          <div id="6" class="calc-button"><span>6</span></div>
+          <div id="multiply" class="calc-button"><span>*</span></div>
+          <div id="1" class="calc-button"><span>1</span></div>
+          <div id="2" class="calc-button"><span>2</span></div>
+          <div id="3" class="calc-button"><span>3</span></div>
+          <div id="subtract" class="calc-button"><span>-</span></div>
+          <div id="0" class="calc-button"><span>0</span></div>
+          <div id="point" class="calc-button"><span>.</span></div>
+          <div id="equals" class="calc-button"><span>=</span></div>
+          <div id="add" class="calc-button"><span>+</span></div>
+        </div>
     </div>
 </body>
 </html>
